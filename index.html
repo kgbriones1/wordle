@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Wordle</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="icon" onclick="window.location.href='index.html';">⚙️</div>
+    <div class="icon" onclick="window.location.href='index.html';">❓</div>
+    <div class="icon" onclick="window.location.href='index.html';">💡</div>
+  </header>
+  <div class="game-container">
+    <h1>Wordle</h1>
+    <div id="board" aria-label="Game Board"></div>
+    <div class="keyboard" id="keyboard" aria-label="On-Screen Keyboard"></div>
+    <div class="message" id="message" aria-live="polite"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
